@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/pallav.jpg';
+import ME from '../../assets/pTheme1.png';
 import './intro.css';
 
 const Intro = () => {
@@ -20,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Around 6 months</small>
+              <small>Around 7 months</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,7 +28,12 @@ const Intro = () => {
               <small>40+ Completed Assignments</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with <b>HTML, CSS, JavaScript, React, Redux </b> etc. building everything from landing pages to APIs under the guidence of <b>MASAI SCHOOL</b> .</p>
+          <p>I'm a Full-Stack developer located who enjoy's to create thoughtful yet beautiful websites with great user experience.
+            <br/><br/>I'm interested in the whole Development Journey Like trying new things and building great projects. I love to write blogs and read books.
+            <br/><br/>I believe everything is an Art when you put your consciousness in it.
+            {/* <b>HTML, CSS, JavaScript, React, Redux </b> etc. building everything from landing pages to APIs under the guidence of 
+            <b>MASAI SCHOOL</b> . */}
+          </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

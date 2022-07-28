@@ -51,8 +51,8 @@ const Portfolio = () => {
             <p>{pro.teckStack}</p>
           
           <div className="portfolio__item-cta">
-            <a href={pro.github} target="_blank" className="btn">GitHub</a>
-            <a href={pro.link} target="_blank" className="btn btn-primary">Live Demo</a>
+            <a href={pro.github} target="_blank" rel="noreferrer" className="btn">GitHub</a>
+            <a href={pro.link} target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
           </div>
           
         </article>
