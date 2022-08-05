@@ -1,6 +1,6 @@
 import React from 'react';
-import IMG1 from '../../assets/lumen5.png';
-import IMG2 from "../../assets/Banggood.png"
+import IMG1 from '../../assets/Nykaa.png';
+import IMG2 from "../../assets/UnsplashNav.png"
 
 
 import './portfolio.css';
@@ -9,23 +9,23 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Banggood Clone',
-      img: IMG2,
-      des:"Banggood is a global leading online shop, offering millions of products that are well-selected. From consumer electronics, tools, home, toys, sports, to clothing, everything could be delivered.",
-      team:"A collaborative project built by a team of 4, executed in 6 days",
-      teckStack:"HTML | React | Redux | Styled Components",
-      link: 'https://banggood-site-clone.netlify.app/',
-      github: 'https://github.com/Jasmine-Shaikh/Banggood-Clone/tree/main/banggood-clone',
+      title: 'Nykaa Clone',
+      img: IMG1,
+      des:"Nykaa is an e-commerce website for beauty and Fashion Products.",
+      res:"My area of responsibility was to create REST Api for authentication and also to create frontend for the same while handling different errors and also to implement Googel oAuth2.",
+      teckStack:" React | Redux | Express | MongoDB |  Material UI ",
+      link: 'https://nykaa-web-app.netlify.app/',
+      github: 'https://github.com/tushar-1910/nykaa-clone',
     },
     {
       id: 2,
-      title: 'Lumen5 video maker Clone',
-      des:"Lumen5 is a video creation platform that enables anyone without training or experience to easily create engaging video content within 5 minute.",
-      img: IMG1,
-      team:"A collaborative project built by a team of 5, executed in 6 days",
-      teckStack:"HTML | CSS | JavaScript | LocalStorage",
-      link: 'https://lumen5c.netlify.app/',
-      github: 'https://github.com/OfficialSiddharthBisht/Lumen5-Video-Maker-Clone',
+      title: 'Unsplash Nav Clone',
+      des:"This is Unsplash Navbar with Login / SignUp and also have Google oAuth for Login.",
+      img: IMG2,
+      res:"Its feature includes - Drag and Drop search from which a user could search different wallpapers by just dragging or uploading image.",
+      teckStack:" React | Redux | Json-Server | Material UI",
+      link: 'https://unsplashnav.netlify.app/',
+      github: 'https://github.com/Parag-Tharani/Unsplash_clone',
     }
     
   ];
@@ -45,9 +45,9 @@ const Portfolio = () => {
           </div>
           
             <p>{pro.des}</p>
-          
-            <p>{pro.team}</p>
-        
+            <br/>
+            <p>{pro.res}</p>
+            <br/>
             <p>{pro.teckStack}</p>
           
           <div className="portfolio__item-cta">

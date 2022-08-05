@@ -12,13 +12,13 @@
 
 :root {
   color:#5a28e5b2;
-  --color-bg: #A47551;
+  --color-bg: #1f1f38;
   /* #1f1f38; */
-  --color-bg-variant: #D0B49F;
+  --color-bg-variant: #2c2c6c;
   /* #2c2c6c; */
-  --color-primary: #E4D4C8;
+  --color-primary: #4db5ff;
   /* #4db5ff; */
-  --color-primary-variant: #D0B49F;
+  --color-primary-variant: #2c2c6c;
   /* rgba(77, 181, 255, 0.4); */
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);

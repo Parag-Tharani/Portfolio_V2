@@ -4,6 +4,8 @@ import { AiOutlineHtml5 } from "react-icons/ai"
 import { FaNodeJs, FaReact } from "react-icons/fa"
 import { SiRedux } from "react-icons/si"
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io"
+import { DiMongodb } from "react-icons/di"
+import { SiExpress } from "react-icons/si"
 import './experience.css';
 
 const Experience = () => {
@@ -47,6 +49,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsGithub className="experience__details-icon" />
               <h4>Git/GitHub</h4>
+            </article>
+            <article className="experience__details">
+              <SiExpress className="experience__details-icon" />
+              <h4>Express</h4>
+            </article>
+            <article className="experience__details">
+              <DiMongodb className="experience__details-icon" />
+              <h4>MongoDB</h4>
             </article>
           </div>
         </div>

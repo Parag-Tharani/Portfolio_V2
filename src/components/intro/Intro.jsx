@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/pTheme1.png';
+import ME from '../../assets/BluePhoto.png';
 import './intro.css';
 
 const Intro = () => {
