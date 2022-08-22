@@ -24,7 +24,7 @@ const Portfolio = () => {
       img: IMG2,
       res:"Here a user can create short URLs for long URLs once they are logged in and could also see number of clicks and cities from where the user clicked as stats for their URls. At home page there are all the global URLs posted within 48hrs after that Urls are automatically deleted from Database.",
       teckStack:" React | Express | Mongo DB | Material UI",
-      link: 'https://url-shortening-web-app.netlify.app/',
+      link: 'https://drive.google.com/drive/folders/17lGqTgGDxpSF3xWkjzeJTeyouG7EMtFw?usp=sharing',
       github: 'https://github.com/Parag-Tharani/Url-Shortner',
     }
     
