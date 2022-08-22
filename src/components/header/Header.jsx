@@ -5,6 +5,8 @@ import './header.css';
 
 const Header = () => {
   return (
+    <>
+    <div className='header__container portfolio2'><p>For more creative / childish portfolio please go to <a href='https://paragtharani24.netlify.app/' target={"_blank"} rel="noreferrer">My Portfolio 2.0</a></p></div>
     <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
@@ -15,6 +17,7 @@ const Header = () => {
         <HeaderSocials />
       </div>
     </header>
+    </>
   )
 }
 

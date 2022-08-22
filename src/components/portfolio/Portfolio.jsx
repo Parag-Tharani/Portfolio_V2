@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from '../../assets/Nykaa.png';
-import IMG2 from "../../assets/UnsplashNav.png"
+import IMG2 from "../../assets/urlShortner.png"
 
 
 import './portfolio.css';
@@ -19,13 +19,13 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'Unsplash Nav Clone',
-      des:"This is Unsplash Navbar with Login / SignUp and also have Google oAuth for Login.",
+      title: 'URL Shortner',
+      des:"Full Stack URL Shortening app where a user can create short Urls for very long urls.",
       img: IMG2,
-      res:"Its feature includes - Drag and Drop search from which a user could search different wallpapers by just dragging or uploading image.",
-      teckStack:" React | Redux | Json-Server | Material UI",
-      link: 'https://unsplashnav.netlify.app/',
-      github: 'https://github.com/Parag-Tharani/Unsplash_clone',
+      res:"Here a user can create short URLs for long URLs once they are logged in and could also see number of clicks and cities from where the user clicked as stats for their URls. At home page there are all the global URLs posted within 48hrs after that Urls are automatically deleted from Database.",
+      teckStack:" React | Express | Mongo DB | Material UI",
+      link: 'https://url-shortening-web-app.netlify.app/',
+      github: 'https://github.com/Parag-Tharani/Url-Shortner',
     }
     
   ];
