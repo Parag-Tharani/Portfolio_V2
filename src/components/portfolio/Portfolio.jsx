@@ -1,5 +1,5 @@
 import React from 'react';
-import IMG1 from '../../assets/Nykaa.png';
+import IMG1 from '../../assets/CollegeWorld.png';
 import IMG2 from "../../assets/urlShortner.png"
 
 
@@ -9,13 +9,13 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Nykaa Clone',
+      title: 'College World',
       img: IMG1,
-      des:"Nykaa is an e-commerce website for beauty and Fashion Products.",
-      res:"My area of responsibility was to create REST Api for authentication and also to create frontend for the same while handling different errors and also to implement Googel oAuth2.",
-      teckStack:" React | Redux | Express | MongoDB |  Material UI ",
-      link: 'https://nykaa-web-app.netlify.app/',
-      github: 'https://github.com/tushar-1910/nykaa-clone',
+      des:"A Full Stack Web App for College Information.",
+      res:"In this a user can fetch college list and could also search with college name , city , state. And also provided Visual Representation of college list according to city for better understanding data. And also created algorithm for fetching similar college which takes location, course and some other factors in consideration.",
+      teckStack:" React | Express | MongoDB |  Material UI ",
+      link: 'https://college-world.netlify.app/',
+      github: 'https://github.com/Parag-Tharani/College-World',
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const Portfolio = () => {
       img: IMG2,
       res:"Here a user can create short URLs for long URLs once they are logged in and could also see number of clicks and cities from where the user clicked as stats for their URls. At home page there are all the global URLs posted within 48hrs after that Urls are automatically deleted from Database.",
       teckStack:" React | Express | Mongo DB | Material UI",
-      link: 'https://drive.google.com/drive/folders/17lGqTgGDxpSF3xWkjzeJTeyouG7EMtFw?usp=sharing',
+      link: 'https://url-shortening-web-app.netlify.app/',
       github: 'https://github.com/Parag-Tharani/Url-Shortner',
     }
     
